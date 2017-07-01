@@ -9,11 +9,11 @@ body, html {
 #topContainer {
 	width: 100%;
 	height: 100%;
-	background-color: #1d1f21;
+	background-color: #FFFFFF;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: white;
+	color: #48483E;
 	text-align: center;
 }
 .typed-cursor {
@@ -42,21 +42,16 @@ a {
 	padding: 5px;
 }
 .code {
-	color: rgba(256,256,256,1);
 	opacity: 1;
+	text-align:left;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
 }
 .code .new {color: #B695BF;}
 .code .fun {color: #81a2be;}
-.code .var {color: #f0c674;}
+.code .var {color: #6CC72C;}
 .code .string {color: #B5BE63;}
 .hidden {
 	display:none;
-}
-.mbr {
-	display: none;
-}
-@media screen and (max-width: 600px) {
-  .mbr {
-	display: block;
-  }
 }
